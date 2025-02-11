@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Questions</h1>
+        </header>
+        <section class="intro">
+            <p class="message">Se que ya te habia preguntado anteriormente lo siguiente, pero yo te dije que te lo iba a
+                preguntar en una carta de todos modos asi que 😁:</p><br><br>
+            <div class="video-container">
+                <h2 class="video-title">Isabel:</h2>
+                <div class="video-player">
+                    <video id="video" loop muted>
+                        <source src="01.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <button id="videoPlayPauseButton" class="play-pause-button">▶️</button>
+            </div>
+            <br>
+            <div class="botones">
+                <button class="sino" id="siButton">Si</button>
+                <button class="sino" id="noButton">No</button>
+            </div>
+            <br>
+            <center><button id="formButton" style="display: none;" class="sino">Formulario</button></center>
+        </section>
+        <section class="closing">
+            <p class="message">Con mucho Cariño</p>
+            <p class="signature">Noe Castillo G.</p>
+        </section>
+        <section class="fin">
+        </section>
+    </div>
+
+    <div class="player-button" id="playerButton">▶</div>
+    <div class="music-player" id="musicPlayer">
+        <div class="player-header">
+            <span id="songTitle">Lorem ipsum dolor sit amet</span>
+            <button id="minimizeButton">_</button>
+        </div>
+        <div class="player-body">
+            <img id="albumCover" src="02.jpeg" alt="Cover">
+            <audio id="audioPlayer" controls>
+                <source id="audioSource" src="https://drive.google.com/uc?id=1Dh07_ci2WESkCpgXBJ07kMn_YFQ9HXK9" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <div class="player-controls">
+                <button id="prevButton">⏮️</button>
+                <button id="audioPlayPauseButton">⏯️</button>
+                <button id="nextButton">⏭️</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>
